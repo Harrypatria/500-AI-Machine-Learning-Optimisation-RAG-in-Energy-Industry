@@ -17,73 +17,7 @@ The energy sector is undergoing a fundamental transformation driven by the conve
 
 Key industry trends shaping this collection include the rise of foundation models for universal time-series forecasting (Chronos, TimesFM), multi-agent reinforcement learning for decentralised energy dispatch, LLM-guided optimisation for unit commitment and economic dispatch, and digital twin architectures integrating real-time sensor fusion with predictive maintenance. Battery management systems increasingly rely on physics-informed ML, while demand response programmes leverage multi-agent coordination under uncertainty.
 
-Organised by technical method rather than industry sector, this resource enables practitioners to select proven algorithms for specific problems — from NILMTK's non-intrusive load monitoring to Grid2Op's power grid RL environment. Every entry is verified against 100+ GitHub stars, ensuring community-validated quality. Aligned with the net-zero transition, this repository prioritises carbon-aware computing, renewable integration, and smart grid intelligence as foundational pillars of the AI-enabled energy future.
-
----
-
-## Repository Architecture Diagram
-
-```mermaid
-graph TD
-    ROOT["500+ AI · ML · Optimisation\nEnergy Intelligence Projects"]
-
-    ROOT --> A["⚡ Energy Intelligence\n82 repos"]
-    ROOT --> B["🤖 Agentic AI\n74 repos"]
-    ROOT --> C["🔍 RAG & LLMs\n61 repos"]
-    ROOT --> D["📈 Optimisation & OR\n53 repos"]
-    ROOT --> E["🧬 Reinforcement Learning\n52 repos"]
-    ROOT --> F["🕸 Graph & Network AI\n43 repos"]
-    ROOT --> G["🔮 Forecasting & TS\n51 repos"]
-    ROOT --> H["🏭 Digital Twins\n34 repos"]
-
-    A --> A1["Demand Forecasting\nDarts · Prophet · TimesFM"]
-    A --> A2["Grid Optimisation\nPyPSA · Pyomo · CVXPY"]
-    A --> A3["RL for Grids\nGrid2Op · CityLearn · Sinergym"]
-    A --> A4["Battery & EV\nPyBaMM · BatteryML · EV2Gym"]
-    A --> A5["Fault Detection\nPyOD · Merlion · Anomaly-T"]
-    A --> A6["Renewables\nPVLib · Open-Meteo"]
-    A --> A7["Carbon & Net-Zero\nElectricityMaps · CarbonTracker"]
-
-    B --> B1["CrewAI\nFlows · Crews · Tools"]
-    B --> B2["AutoGen\nCore · Magentic-One"]
-    B --> B3["LangGraph\nPlan-Execute · Reflection"]
-    B --> B4["Agno\nFinance · Research · Legal"]
-    B --> B5["Standalone\nBabyAGI · MetaGPT · SuperAGI"]
-
-    C --> C1["Core RAG\nAdaptive · CRAG · Self-RAG"]
-    C --> C2["Graph RAG\nGraphRAG · RAPTOR · Neo4j"]
-    C --> C3["Chatbots\nPrivateGPT · Ollama · Rasa"]
-
-    D --> D1["Mathematical\nPuLP · OR-Tools · Pyomo"]
-    D --> D2["Metaheuristics\nDEAP · Pymoo · PySwarms"]
-    D --> D3["LLM-guided OR\nOptiGuide · Gurobi-ML"]
-
-    E --> E1["Libraries\nSB3 · RLlib · CleanRL"]
-    E --> E2["Energy Envs\nGrid2Op · CityLearn · PowerGym"]
-    E --> E3["Finance RL\nFinRL · FinGPT"]
-
-    F --> F1["GNN Frameworks\nPyG · DGL"]
-    F --> F2["Graph Analysis\nNetworkX · iGraph"]
-    F --> F3["Knowledge Graphs\nGraphRAG · Neo4j GenAI"]
-
-    G --> G1["Foundation Models\nTimesFM · Chronos · Moirai"]
-    G --> G2["Libraries\nDarts · sktime · StatsForecast"]
-    G --> G3["Anomaly Detection\nPyOD · Merlion · Anomaly-T"]
-
-    H --> H1["Physics-Informed\nPINNs · PyBaMM"]
-    H --> H2["Simulation\nEnergyPlus · Sinergym"]
-    H --> H3["Cloud Twins\nAzure Digital Twins"]
-
-    style ROOT fill:#1e1b4b,color:#fff,stroke:#6366f1,stroke-width:2px
-    style A fill:#78350f,color:#fef3c7,stroke:#f59e0b
-    style B fill:#312e81,color:#e0e7ff,stroke:#6366f1
-    style C fill:#064e3b,color:#d1fae5,stroke:#10b981
-    style D fill:#1e3a8a,color:#dbeafe,stroke:#3b82f6
-    style E fill:#500724,color:#fce7f3,stroke:#ec4899
-    style F fill:#3b0764,color:#f3e8ff,stroke:#8b5cf6
-    style G fill:#134e4a,color:#ccfbf1,stroke:#14b8a6
-    style H fill:#431407,color:#ffedd5,stroke:#f97316
-```
+Organised by technical method rather than industry sector, this resource enables practitioners to select proven algorithms for specific problems, from NILMTK's non-intrusive load monitoring to Grid2Op's power grid RL environment. Every entry is verified against 100+ GitHub stars, ensuring community-validated quality. Aligned with the net-zero transition, this repository prioritises carbon-aware computing, renewable integration, and smart grid intelligence as foundational pillars of the AI-enabled energy future.
 
 ---
 
@@ -436,25 +370,10 @@ graph LR
 
 Requirements: the project must have 100+ GitHub stars or forks, and a working implementation. Energy-sector projects are prioritised.
 
----
+## 🌟 Support This Project
+**Follow me on GitHub**: [![GitHub Follow](https://img.shields.io/github/followers/Harrypatria?style=social)](https://github.com/Harrypatria?tab=followers)
+**Connect on LinkedIn**: [![LinkedIn Follow](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harry-patria/)
 
-## Star History
+Click the buttons above to show your support!
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://api.star-history.com/svg?repos=nilmtk/nilmtk,rte-france/Grid2Op,PyPSA/PyPSA,pybamm-team/PyBaMM,unit8co/darts&type=Date&theme=dark"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://api.star-history.com/svg?repos=nilmtk/nilmtk,rte-france/Grid2Op,PyPSA/PyPSA,pybamm-team/PyBaMM,unit8co/darts&type=Date"
-  />
-  <img
-    alt="Star History — Featured Energy AI Repositories"
-    src="https://api.star-history.com/svg?repos=nilmtk/nilmtk,rte-france/Grid2Op,PyPSA/PyPSA,pybamm-team/PyBaMM,unit8co/darts&type=Date"
-  />
-</picture>
-
----
-
-MIT License · [github.com/Harrypatria](https://github.com/Harrypatria) · [patriaco.co.uk](https://www.patriaco.co.uk) · [ORCID 0000-0002-7844-538X](https://orcid.org/0000-0002-7844-538X)
+</div>
