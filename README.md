@@ -370,6 +370,8 @@ graph LR
 
 Requirements: the project must have 100+ GitHub stars or forks, and a working implementation. Energy-sector projects are prioritised.
 
+<div align="center">
+
 ## 🌟 Support This Project
 **Follow me on GitHub**: [![GitHub Follow](https://img.shields.io/github/followers/Harrypatria?style=social)](https://github.com/Harrypatria?tab=followers)
 **Connect on LinkedIn**: [![LinkedIn Follow](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harry-patria/)
